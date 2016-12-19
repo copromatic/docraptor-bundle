@@ -1,9 +1,9 @@
 {
-    "name": "bytes/docraptor-bundle",
+    "name": "touiliy/docraptor-bundle",
     "type": "symfony-bundle",
     "description": "Bundle around the Docraptor API client",
-    "keywords": ["docraptor", "api", "symfony2", "bundle"],
-    "homepage": "http://github.com/MartijnDwars/DocraptorBundle",
+    "keywords": ["docraptor", "api", "symfony3", "bundle"],
+    "homepage": "https://github.com/touiliy/docraptor-bundle",
     "license": "MIT",
     "authors": [
         {
@@ -15,13 +15,13 @@
     "repositories": [
         {
             "type":"vcs",
-            "url":"/home/martijn/Projects/docraptor"
+            "url":"https://github.com/touiliy/docraptor-bundle"
         }
     ],
 
     "require": {
         "php": ">=5.3.2",
-        "symfony/framework-bundle": "~2.1",
+        "symfony/framework-bundle": "3.1.*",
         "bytes/docraptor":"dev-master"
     },
     "autoload": {
