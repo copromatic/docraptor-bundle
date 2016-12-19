@@ -18,7 +18,7 @@
             "url":"https://github.com/touiliy/docraptor-bundle"
         }
     ],
-
+    "minimum-stability": "dev",
     "require": {
         "php": ">=5.3.2",
         "symfony/framework-bundle": "3.1.*",
