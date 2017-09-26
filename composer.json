@@ -1,5 +1,5 @@
 {
-    "name": "touiliy/docraptor-bundle",
+    "name": "copromatic/docraptor-bundle",
     "type": "symfony-bundle",
     "description": "Bundle around the Docraptor API client",
     "keywords": ["docraptor", "api", "symfony3", "bundle"],
