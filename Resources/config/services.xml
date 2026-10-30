@@ -14,7 +14,7 @@
     <services>
         <service id="docraptor.http_client" class="%bytes_docraptor.http_client.class%" public="false" />
         
-        <service id="docraptor" class="%bytes.docraptor.client.class%">
+        <service id="docraptor" class="%bytes.docraptor.client.class%" public="true">
             <argument type="service" id="docraptor.http_client" />
             <argument>%bytes_docraptor.apikey%</argument>
             <call method="setTestmode">
